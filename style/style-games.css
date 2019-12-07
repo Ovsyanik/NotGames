@@ -33,9 +33,8 @@
 
 .image{
     padding:20px;
-    width: 100%;
-    height:100%;
 }
+
 
 
 .download-games{
@@ -51,7 +50,7 @@
     font-size: 20px;
 }
 
-@media screen and (min-width:400px) and (max-width:1080px) {
+@media screen and (min-width:300px) and (max-width:1080px) {
     @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
     .header-name-games{
@@ -73,7 +72,7 @@
         width:300px;
         height:300px;
         float:left;
-        margin:0px 20px;
+        margin:0px auto;
     }
     
     .screenshots{

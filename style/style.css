@@ -36,7 +36,7 @@ h1{
     padding:0px;
     line-height: 1.5;
     font-weight: 400;
-    color: #272727;
+    background-color: #272727;
     background-image: url(/image/pattern3.jpg);
     background-size:100%;
     width: 100%;
@@ -276,11 +276,6 @@ h1{
         width: 100%;
         } 
     
-    header {
-        width: 100%;
-        background: #272727;
-        position: relative;
-        }
         /* логотип */
         .logo {
         display: block; 
