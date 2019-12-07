@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.header-name-games{
+    width: 100%;
+    margin:10px 
+}
+
+.name-games{
+    text-align: center;
+    border-bottom: 2px solid #272727;
+    margin-top: 20px;
+}
+
+.content{
+    font-size:20px;
+}
+
+.content p{
+    margin-bottom:25px;
+    margin-left:20px;
+}
+.image-left{
+    width:300px;
+    height:300px;
+    float:left;
+    margin:0px 20px;
+}
+
+.screenshots{
+    display: flex;
+   justify-content: center;
+}
+
+.image{
+    padding:20px;
+    width: 100%;
+    height:100%;
+}
+
+
+.download-games{
+    margin: 0px auto;
+}
+.btn {
+    background-color: #272727;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media screen and (min-width:400px) and (max-width:1080px) {
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+    .header-name-games{
+        width: 100%;
+        margin:0px; 
+    }
+    
+    .name-games{
+        text-align: center;
+        border-bottom: 2px solid #272727;
+        margin-top: 20px;
+    }
+    
+    .content{
+        font-size:20px;
+    }
+    
+    .image-left{
+        width:300px;
+        height:300px;
+        float:left;
+        margin:0px 20px;
+    }
+    
+    .screenshots{
+        display: flex;
+       justify-content: center;
+    }
+    
+    .image{
+        padding:20px;
+    }
+    
+    
+    .download-games{
+        margin: 40px auto;
+        width: 50%;
+    }
+    .btn {
+        background-color: #272727;
+        width: 30%;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        font-size: 16px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+}
